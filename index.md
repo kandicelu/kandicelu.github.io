@@ -4,8 +4,6 @@ title: Kandice Lu
 ---
 
 ## About Me
-aaaaaaa
-
 ![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
 
 
