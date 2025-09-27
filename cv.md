@@ -1,11 +1,11 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Kandice Lu - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my Resume]({{ "/assets/Lu_Kandice_Resume.pdf" | relative_url }})
+[Download my Resume]({{ "/KandiceLu-Resume.pdf" | relative_url }})
 
 
 
