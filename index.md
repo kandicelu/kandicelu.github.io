@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Kandice Lu
+title: "Kandice Lu"
 ---
 
 ## About Me
