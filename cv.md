@@ -13,7 +13,7 @@ permalink: /cv/
 ---
 
 #### Objective
-Aspiring mechanical engineering student passionate about aerospace technologies, but eager to apply and expand my knowledge in all in areas. 
+Aspiring mechanical engineering student passionate about aerospace, but eager to apply and expand my knowledge in all in areas. 
 
 ---
 
