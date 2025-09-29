@@ -48,7 +48,7 @@ Aspiring mechanical engineering student passionate about aerospace, but eager to
   [May, 2025] - [Present]  
   - Developed and optimized procedures for fabricating potential polymer-based thermal interface material samples
   - Characterized thermal properties of polymer samples to inform experimental changes to subsequent samples
- 
+ ---
 #### Coursework Projects
 - **[Cube Collecting Robot]**:  
   *[Designed and programmed an autonomous cube-collecting robot within given size and budget constraints]*  
@@ -66,7 +66,7 @@ Aspiring mechanical engineering student passionate about aerospace, but eager to
   *[Deconstructed and reverse-engineered a door lock/and knob]*  
   - Documented and reported detailed disassembly and re-assembly steps 
   - Investigated mechanical workings of the lock to determine function of each component
-  
+ --- 
 #### Work Experience
 - **[Finger Lakes Reuse] - Administrative Project Intern**  
   [June, 2025] - [Aug, 2025]  
