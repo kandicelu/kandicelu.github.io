@@ -14,6 +14,7 @@ permalink: /cv/
 
 #### Objective
 Aspiring mechanical engineering student passionate about aerospace, but eager to apply and expand my knowledge in all in areas. Currently seeking an internship for summer 2026.
+"C:\Users\kandi\Downloads\profile-pic.jpg"
 
 ---
 

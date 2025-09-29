@@ -1,0 +1,9 @@
+.profile-image {
+  width: 150px;           /* Adjust size as needed */
+  height: 150px;          /* Keep aspect ratio square */
+  object-fit: cover;      /* Crop to fit container */
+  border-radius: 50%;     /* Makes it circular */
+  display: block;
+  margin: 0 auto 20px;    /* Center horizontally and add spacing below */
+  border: 2px solid #ccc; /* Optional border */
+}
