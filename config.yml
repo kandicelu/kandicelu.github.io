@@ -27,11 +27,11 @@ sass:
 permalink: /:categories/:title/
 
 collections:
-  pages:
-    output: true
+ # pages:
+    #output: true
   projects:
     output: true
-    permalink: /:collection/:path/
+    permalink: /projects/:path/
 
 # Markdown
 markdown: kramdown
