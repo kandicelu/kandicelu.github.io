@@ -1,6 +1,6 @@
 .profile-image {
-  width: 50px;           /* Adjust size as needed */
-  height: 50px;          /* Keep aspect ratio square */
+  width: 10px;           /* Adjust size as needed */
+  height: 10px;          /* Keep aspect ratio square */
   object-fit: cover;      /* Crop to fit container */
   border-radius: 50%;     /* Makes it circular */
   display: block;

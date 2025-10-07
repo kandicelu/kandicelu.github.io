@@ -1,0 +1,10 @@
+.profile-image {
+  width: 150px;          /* Set actual size */
+  height: 150px;         /* Set actual size */
+  max-width: 100%;       /* Prevent overflowing container */
+  object-fit: cover;     /* Crop if needed */
+  border-radius: 50%;    /* Make it circular */
+  display: block;
+  margin: 0 auto 20px;   /* Center horizontally and add spacing below */
+  border: 2px solid #ccc;/* Optional border */
+}
