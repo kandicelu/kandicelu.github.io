@@ -17,7 +17,7 @@ baseurl                  : "" # Set this to "portfolio-<your-github-username>"
 url                      : "https://kandicelu.github.io/"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 
 # Theme and Style
-theme: jekyll-theme-minimal
+theme: minima
 color_scheme: light # light/default, dark, or aqua
 
 sass:

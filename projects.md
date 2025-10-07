@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Kandice Lu - Portfolio
+title: Kandice Lu - Projects
 permalink: /projects/
 ---
 
-<div class="gallery-container">
-<div class="project-gallery">
-    {% for project in site.projects %}
-      <div class="gallery-item">
-        <a href="{{ project.url | relative_url }}">
-          <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" />
-          <p>{{ project.title}}</p>
-        </a>
-      </div>
-    {% endfor %}
-</div>
-</div>
+<h1>{{ page.title }}</h1>
+
+<ul class="list-group">
+{% for project in site.projects %}
+  <li class="list-group-item">
+    <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+    {% if project.description %}
+      <p class="mb-0 text-muted">{{ project.description }}</p>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>

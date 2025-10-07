@@ -5,7 +5,8 @@ title: "Kandice Lu"
 
 ## About Me
 
-<img src="{{ '/assets/images/profile-pic.jpg' | relative_url }}" alt="Profile Picture" style="width:150px; height:150px; object-fit:cover; display:block; margin:0 auto 20px; border:2px solid #ccc;">
+<img src="{{ '/assets/images/profile_pic.jpg' | relative_url }}" alt="Profile Picture">
+
 
 Hi! My name is Kandice Lu, and I am a senior mechanical engineering student at Cornell University. I am passionate about aerospace engineering technologies, but I am also eager to learn about other areas. I plan to pursue a Master's of Engineering following my bachelor's degree and am seeking an engineering internship for this upcoming summer. I am particularly interested in design, testing, and analysis, especially in structural or thermofluid systems. Above all, I hope to make an impact by contributing to the development of new technologies.
 
