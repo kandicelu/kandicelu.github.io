@@ -2,8 +2,8 @@
 layout: project
 title: Glider Project
 images:
-  - /_assets/images/glidercad.png
-  - /_assets/images/gliderfinal.png
+  - /assets/images/glidercad.png
+  - /assets/images/gliderfinal.png
 imagealt:
   - Glider CAD
   - Glider Built

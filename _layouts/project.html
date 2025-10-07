@@ -3,23 +3,21 @@ layout: default
 title: Kandice Lu - Portfolio
 permalink: /projects/
 ---
-{{ site.projects | size }}
 
+{{ site.projects | size }}
 
 <article class="project-page container my-4">
 
   <!-- Project Title -->
   <h1 class="mb-3">{{ page.title }}</h1>
 
-  <!-- Project Images -->
-  {% if page.images %}
-    {% for img in page.images %}
-      <p>
-        <img src="{{ img | relative_url }}" 
-             alt="{{ page.imagealt[forloop.index0] | default: page.title }}" 
-             class="img-fluid project-image mb-3" />
-      </p>
-    {% endfor %}
+  <!-- First Image (before text) -->
+  {% if page.images and page.images.size > 0 %}
+    <p>
+      <img src="{{ page.images[0] | relative_url }}" 
+           alt="{{ page.imagealt[0] | default: page.title }}" 
+           class="img-fluid project-image mb-3" />
+    </p>
   {% elsif page.image %}
     <p>
       <img src="{{ page.image | relative_url }}" 
@@ -32,6 +30,15 @@ permalink: /projects/
   <div class="project-description">
     {{ content }}
   </div>
+
+  <!-- Second Image (after text) -->
+  {% if page.images and page.images.size > 1 %}
+    <p>
+      <img src="{{ page.images[1] | relative_url }}" 
+           alt="{{ page.imagealt[1] | default: page.title }}" 
+           class="img-fluid project-image mb-3" />
+    </p>
+  {% endif %}
 
   <!-- Back Button -->
   <p class="mt-4">

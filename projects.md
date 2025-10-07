@@ -4,15 +4,63 @@ title: Kandice Lu - Projects
 permalink: /projects/
 ---
 
-<h1>{{ page.title }}</h1>
+<div class="mb-4">
+  <a href="{{ '/' | relative_url }}" class="btn btn-secondary">
+    &larr; Back to Home
+  </a>
+</div>
 
-<ul class="list-group">
-{% for project in site.projects %}
-  <li class="list-group-item">
-    <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-    {% if project.description %}
-      <p class="mb-0 text-muted">{{ project.description }}</p>
-    {% endif %}
-  </li>
-{% endfor %}
-</ul>
+<h1 class="mb-4">{{ page.title }}</h1>
+
+<div class="row g-4">
+  {% for project in site.projects %}
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <a href="{{ project.url | relative_url }}" class="card-link-wrapper text-decoration-none">
+        <div class="card h-100 project-card">
+
+          <!-- Project First Image -->
+          {% if project.images and project.images.size > 0 %}
+            <img src="{{ project.images[0] | relative_url }}" 
+                 class="card-img-top project-thumb" 
+                 alt="{{ project.imagealt[0] | default: project.title }}">
+          {% elsif project.image %}
+            <img src="{{ project.image | relative_url }}" 
+                 class="card-img-top project-thumb" 
+                 alt="{{ project.imagealt | default: project.title }}">
+          {% endif %}
+
+          <!-- Project Info -->
+          <div class="card-body">
+            <h5 class="card-title">{{ project.title }}</h5>
+            {% if project.description %}
+              <p class="card-text text-muted">{{ project.description }}</p>
+            {% endif %}
+          </div>
+
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+  .project-thumb {
+    height: 200px;       /* Fixed height for thumbnails */
+    object-fit: cover;   /* Crop to fill card top */
+    width: 100%;
+  }
+
+  .card-link-wrapper {
+    display: block;
+    color: inherit;
+  }
+
+  .project-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card-link-wrapper:hover .project-card {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+</style>

@@ -8,3 +8,10 @@
   margin: 0 auto 20px;   /* Center horizontally and add spacing below */
   border: 2px solid #ccc;/* Optional border */
 }
+.project-image {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 1em;
+}
