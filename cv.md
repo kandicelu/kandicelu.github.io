@@ -8,7 +8,7 @@ permalink: /cv/
 
 [Download my Resume]({{ "/KandiceLu-Resume.pdf" | relative_url }})
 
-**Email:** [kl744@cornell.edu](mailto:kl744@cornell.edu) | **Phone:** +413-834-8510
+**Email:** [kl744@cornell.edu](mailto:kl744@cornell.edu) |    **Phone:** +413-834-8510
 
 ---
 
@@ -21,6 +21,7 @@ Aspiring mechanical engineering student passionate about aerospace, but eager to
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
   GPA: 3.908/4.0 | Graduation: May 2026
+  Dean's List: Fall 2022 - Spring 2025
 
 ---
 
