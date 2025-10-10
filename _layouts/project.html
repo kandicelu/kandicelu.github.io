@@ -4,44 +4,122 @@ title: Kandice Lu - Portfolio
 permalink: /projects/
 ---
 
-{{ site.projects | size }}
+<style>
+  /* --- Layout fixes --- */
+  .project-page {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
 
-<article class="project-page container my-4">
+  main.container, .container, body {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  /* --- Title styling --- */
+  .project-page h2 {
+    margin-top: 0 !important;
+    margin-bottom: 0.75rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  /* --- General image styling --- */
+  .project-page img.project-image {
+    display: block;
+    margin: 0 0 0.75rem 0;   /* reduced vertical spacing */
+    max-width: 50%;
+    height: auto;
+
+  }
+
+  /* --- Container for last two images --- */
+  .last-two-images {
+    display: flex;
+    gap: 0.25rem;           /* minimal horizontal spacing */
+    margin-top: 0.5rem;
+    flex-wrap: wrap;         /* stack on mobile */
+  }
+  .last-two-images img {
+    flex: 1 1 48%;           /* side by side on larger screens */
+    margin-bottom: 0.75rem;
+  }
+
+  /* Optional: make the container slightly narrower */
+  .project-page .container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+</style>
+
+<article class="project-page container-fluid my-0 py-0">
 
   <!-- Project Title -->
-  <h1 class="mb-3">{{ page.title }}</h1>
+  <h2>{{ page.title }}</h2>
 
   <!-- First Image (before text) -->
   {% if page.images and page.images.size > 0 %}
     <p>
       <img src="{{ page.images[0] | relative_url }}" 
            alt="{{ page.imagealt[0] | default: page.title }}" 
-           class="img-fluid project-image mb-3" />
+           class="img-fluid project-image" />
     </p>
   {% elsif page.image %}
     <p>
       <img src="{{ page.image | relative_url }}" 
            alt="{{ page.imagealt | default: page.title }}" 
-           class="img-fluid project-image mb-3" />
+           class="img-fluid project-image" />
     </p>
   {% endif %}
 
   <!-- Project Description -->
-  <div class="project-description">
+  <div class="project-description mb-3">
     {{ content }}
   </div>
 
-  <!-- Second Image (after text) -->
+  <!-- Additional Images -->
   {% if page.images and page.images.size > 1 %}
-    <p>
-      <img src="{{ page.images[1] | relative_url }}" 
-           alt="{{ page.imagealt[1] | default: page.title }}" 
-           class="img-fluid project-image mb-3" />
-    </p>
+    {% assign additional_images = page.images | slice:1, page.images.size %}
+    {% assign additional_image_count = additional_images.size %}
+
+    {% if additional_image_count > 2 %}
+      {% assign stacked_images = additional_images | slice: 0, additional_image_count | minus:2 %}
+      {% assign last_two = additional_images | slice: additional_image_count | minus:2, 2 %}
+    {% else %}
+      {% assign stacked_images = "" %}
+      {% assign last_two = additional_images %}
+    {% endif %}
+
+    <!-- Stack all but last two -->
+    {% for image in stacked_images %}
+      {% assign idx = forloop.index %}
+      <img src="{{ image | relative_url }}" 
+           alt="{{ page.imagealt[idx] | default: page.title }}" 
+           class="project-image" />
+    {% endfor %}
+
+    <!-- Last two images side by side -->
+    {% if last_two.size == 2 %}
+      {% assign second_last_index = page.images.size | minus: 2 %}
+      {% assign last_index = page.images.size | minus: 1 %}
+      <div class="last-two-images">
+        <img src="{{ last_two[0] | relative_url }}" 
+             alt="{{ page.imagealt[second_last_index] | default: page.title }}" 
+             class="project-image" />
+        <img src="{{ last_two[1] | relative_url }}" 
+             alt="{{ page.imagealt[last_index] | default: page.title }}" 
+             class="project-image" />
+      </div>
+    {% elsif last_two.size == 1 %}
+      <img src="{{ last_two[0] | relative_url }}" 
+           alt="{{ page.imagealt[page.images.size | minus:1] | default: page.title }}" 
+           class="project-image" />
+    {% endif %}
   {% endif %}
 
   <!-- Back Button -->
-  <p class="mt-4">
+  <p class="mt-3">
     <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary">
       <i class="bi bi-arrow-left-circle-fill"></i> Back to Projects
     </a>
