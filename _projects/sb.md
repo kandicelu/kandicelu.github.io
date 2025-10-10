@@ -2,8 +2,8 @@
 layout: project
 title: Steel Bridge Project Team
 images:
-  - /assets/images/robotclosed.jpg
-  - /assets/images/robotopen.jpg
+  - /assets/images/bridge25.jpg
+  - /assets/images/bridgefinal.jpg
 
 ---
 **Technical Skills:** Structural Analysis, CAD, FEA, Manual and CNC machining, Welding, DFMA, GD&T
