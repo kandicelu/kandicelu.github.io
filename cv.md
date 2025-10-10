@@ -24,6 +24,14 @@ Aspiring mechanical engineering student passionate about aerospace, but eager to
 
 ---
 
+### Coursework
+- **Material Mechanics:**  Statics, Mechanics of Materials, Finite Element Analysis
+- **Thermofluids:**  Thermodynamics, Heat Transfer, Fluid Mechanics
+- **Aerospace:** Aeronautics, Propulsion of Aircraft/Rockets, Spaceflight Mechanics
+- **Other:** Dynamics, System Dynamics, Mechatronics
+ 
+---
+
 ### Skills
 - **Technical Skills:** Computer-Aided Design, Finite Element Analysis, Structural Analysis, Manual and CNC Machining, 3D Printing, DFMA, GD&T
 - **Software:** Autodesk Fusion 360, SolidWorks, ANSYS, STAAD.Pro, LabVIEW
