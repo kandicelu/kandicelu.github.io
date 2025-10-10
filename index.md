@@ -14,4 +14,6 @@ Hi! My name is Kandice Lu, and I am a senior mechanical engineering student at C
 
 I currently serve as the full team lead and fabrication lead for the Cornell Steel Bridge student project team. This role has given me experience in structural analysis, design for manufacturing and assembly, project management, and collaboration skills. Additionally, I am an undergraduate researcher with the ZT Group, assisting in research on polymer-based thermal interface materials.
 
+In my free time, I enjoy photography, and puzzles, and playing Tetris
+
 Take a look at <a href="{{ '/projects/' | relative_url }}">my projects</a> and <a href="{{ '/cv/' | relative_url }}">CV</a>.
