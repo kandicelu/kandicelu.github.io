@@ -14,7 +14,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Kandice Lu"
 description              : "Kandice Lu - Projects and CV"
 baseurl                  : "" # Set this to "portfolio-<your-github-username>" 
-url                      : "https://kandiceluportfolio/"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://kandicelu.github.io/"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 
 # Theme and Style
 theme: minima
