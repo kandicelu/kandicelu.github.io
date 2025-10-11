@@ -15,3 +15,35 @@
   display: block;
   margin-bottom: 1em;
 }
+
+.project-caption {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+body {
+  margin: 0;
+  padding: 0; /* remove browser default */
+}
+
+/* Navbar adjustments */
+.navbar {
+  padding-top: 0rem;
+  padding-bottom: 0.25rem;
+  min-height: 40px; /* shrink navbar if needed */
+}
+
+/* Main container-fluid: remove extra top padding */
+main.container-fluid {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  padding-top: 0; /* important */
+}
+
+/* Content wrapper: exact spacing from navbar bottom */
+.content-wrapper {
+  margin-top: 1rem;  /* this now represents true spacing */
+  margin-bottom: 1rem;
+}

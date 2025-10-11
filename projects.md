@@ -10,11 +10,12 @@ permalink: /projects/
   </a>
 </div>
 
-<h1 class="mb-4">{{ page.title }}</h1>
+<h1 class="mb-4 page-title">{{ page.title }}</h1>
+
 
 <div class="row g-4">
   {% for project in site.projects %}
-    <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="col-sm-6 col-md-4 col-lg-4">
       <a href="{{ project.url | relative_url }}" class="card-link-wrapper text-decoration-none">
         <div class="card h-100 project-card">
 
@@ -49,12 +50,17 @@ permalink: /projects/
     object-fit: cover;   /* Crop to fill card top */
     width: 100%;
   }
+  h1.page-title {
+  font-size: 1.75rem;   /* adjust smaller than default */
+  font-weight: 600;  /* optional */
+  margin-bottom: 0rem;
+}
 
   .card-link-wrapper {
     display: block;
     color: inherit;
   }
-
+  
   .project-card {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }

@@ -3,12 +3,26 @@ layout: default
 title: Kandice Lu - Curriculum Vitae
 permalink: /cv/
 ---
-
+<div class="mb-4">
+  <a href="{{ '/' | relative_url }}" class="btn btn-secondary">
+    &larr; Back to Home
+  </a>
+</div>
 ## Curriculum Vitae
 
-[Download my Resume]({{ "/KandiceLu-Resume.pdf" | relative_url }})
-
-**Email:** [kl744@cornell.edu](mailto:kl744@cornell.edu) |    **Phone:** +413-834-8510
+<div class="contact-info" style="margin-bottom: 1rem;">
+  <span style="margin-right: 2rem;">
+    <strong>Email:</strong> <a href="mailto:kl744@cornell.edu">kl744@cornell.edu</a>
+  </span>
+  <span style="margin-right: 2rem;">
+    <strong>Phone:</strong> +413-834-8510
+  </span>
+  <span>
+    <a href="{{ "/KandiceLu-Resume.pdf" | relative_url }}" class="btn btn-outline-secondary btn-sm">
+      Download Resume
+    </a>
+  </span>
+</div>
 
 ---
 
