@@ -18,7 +18,7 @@ permalink: /cv/
     <strong>Phone:</strong> +413-834-8510
   </span>
   <span>
-    <a href="{{ "/KandiceLu-Resume.pdf" | relative_url }}" class="btn btn-outline-secondary btn-sm">
+    <a href="{{ "/LuKandice_Resume.pdf" | relative_url }}" class="btn btn-outline-secondary btn-sm">
       Download Resume
     </a>
   </span>
