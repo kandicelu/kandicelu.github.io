@@ -34,15 +34,18 @@ Aspiring mechanical engineering student passionate about aerospace, but eager to
 ### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.908/4.0 | Graduation: May 2026
+  GPA: 3.919/4.0 | Graduation: May 2026
   Dean's List: Fall 2022 - Spring 2025
+- **Cornell University**  
+  *Master of Engineering in Aerospace Engineering*  
+  Graduation: Dec 2026
 
 ---
 
 ### Coursework
-- **Material Mechanics:**  Statics, Mechanics of Materials, Finite Element Analysis
-- **Thermofluids:**  Thermodynamics, Heat Transfer, Fluid Mechanics
-- **Aerospace:** Aeronautics, Propulsion of Aircraft/Rockets, Spaceflight Mechanics
+- **Material Mechanics:**  Statics, Mechanics of Materials, Finite Element Analysis, Composites, Vibrations
+- **Thermofluids:**  Thermodynamics, Heat Transfer, Fluid Mechanics, Intermediate Fluids (CFD)
+- **Aerospace:** Aeronautics, Propulsion of Aircraft/Rockets, Spaceflight Mechanics, Flight Dynamics
 - **Other:** Dynamics, System Dynamics, Mechatronics
  
 ---
@@ -57,11 +60,13 @@ Aspiring mechanical engineering student passionate about aerospace, but eager to
 ### Relevant Experience
 - **[Cornell Steel Bridge Project Team] - Full Team Lead, Fabrication Lead**  
   *Sep 2023 – Present*  
-  - Lead a team of 30 students to design and fabricate a 20-foot steel bridge to withstand a 2500 lb load with minimal deflection in an annual competition
-  - Optimized structural efficiency by analyzing varied geometries and section properties, improving projected costs by 15%
-  - Designed member connections in Fusion 360 and assessed safety factors through finite element analysis
-  - Conducted load testing and collaborated to troubleshoot issues, improving deflection performance
-  - Created shop drawings, specified tolerances, and personally fabricated over 200 components
+• Led a multi-disciplinary team of 30 students to design and fabricate a 20 foot steel bridge to withstand a 2500lb load with
+minimal deflection in an annual competition
+• Optimized section properties and geometries to improve projected structural efficiency costs from the initial design by 15%
+• Modeled member connections with CAD and assessed safety factors through FEA to ensure structural integrity
+• Create full CAD assembly of design, compile BOM and source all necessary materials
+• Assessed structural performance by conducting static load testing and implemented necessary fixes
+• Created manufacturing drawings and streamlined machining procedures to finish fabrication 20% ahead of schedule
 
 - **[ZT Group] - Undergraduate Researcher**  
   *May 2025 – Present*  
