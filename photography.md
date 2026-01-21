@@ -3,15 +3,10 @@ layout: default
 title: Kandice Lu - Photography
 permalink: /photography/
 ---
----
-layout: default
-title: Kandice Lu - Photography
-permalink: /photography/
----
 
 # Photography
 
-A selection of my work.
+A few of my favorite photos I've taken:
 
 <style>
 .gallery {
