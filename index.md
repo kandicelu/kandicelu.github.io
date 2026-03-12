@@ -5,7 +5,7 @@ title: "Kandice Lu"
 
 ## About Me
 
-<img src="{{ '/assets/images/headshot1.JPG' | relative_url }}" 
+<img src="{{ '/assets/images/profile1.jpg' | relative_url }}" 
      alt="Profile Picture" 
      width="200" 
      style="border-radius:50%; display:block; margin-bottom:1rem;">
