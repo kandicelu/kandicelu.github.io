@@ -4,10 +4,14 @@ title: Steel Bridge Project Team
 images:
  
   - /assets/images/leg.JPG
-  - /assets/images/bridge25.png
-  - /assets/images/bridgefinal.jpg
+  - /assets/images/bridge26.png
+  - /assets/images/bridge26final.jpg
 ---
 **Technical Skills:** Structural Analysis · CAD · FEA · Manual & CNC Machining · Welding · DFMA · GD&T
+
+<a class="btn btn-primary btn-sm mb-3" href="/projects/1steelbridge.md/">
+  2024–2025
+</a>
 
 I am part of Cornell Steel Bridge, a project team that designs and fabricates a 20 foot bridge from scratch for an annual competition, where our design's weight, construction time, and deflection under a 2500lb load are combined to produce a final "cost" that determines scoring. 
 
