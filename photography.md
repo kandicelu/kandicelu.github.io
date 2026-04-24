@@ -3,11 +3,14 @@ layout: default
 title: Kandice Lu - Photography
 permalink: /photography/
 ---
+<div class="mb-4">
+  <a href="{{ '/' | relative_url }}" class="btn btn-secondary">
+    &larr; Back to Home
+  </a>
+</div>
 
 # Photography
-
-A selection of my work.
-
+Some of my favorite photos I've taken
 <style>
 .gallery {
   display: grid;
