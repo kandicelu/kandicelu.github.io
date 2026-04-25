@@ -10,7 +10,7 @@ title: "Kandice Lu"
      width="200" 
      style="border-radius:50%; display:block; margin-bottom:1rem;">
 
-Hi! My name is Kandice Lu, and I am a senior mechanical engineering student at Cornell University and will be continuing with a M.Eng in aerospace engineering at Cornell, to be finished December 2026. I am currently interested in an internship for the summer of 2026, or a full time role following my M.Eng. 
+Hi! My name is Kandice Lu, I am a senior mechanical engineering student at Cornell University and will be continuing with a M.Eng in aerospace engineering at Cornell, to be finished December 2026. 
 
 I am highly interested in structural and thermofluid modelling and analysis, especially in aerospace applications, but would love the opportunity to apply these skills in other areas as well.
 
