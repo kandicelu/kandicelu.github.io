@@ -34,8 +34,9 @@ Aspiring mechanical engineering student passionate about aerospace, but eager to
 ### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.919/4.0 | Graduation: May 2026
+  GPA: 3.93/4.0 | Graduation: May 2026
   Dean's List: Fall 2022 - Spring 2025
+  Sibley Prize
 - **Cornell University**  
   *Master of Engineering in Aerospace Engineering*  
   Graduation: Dec 2026
@@ -69,7 +70,7 @@ minimal deflection in an annual competition
 • Created manufacturing drawings and streamlined machining procedures to finish fabrication 20% ahead of schedule
 
 - **[ZT Group] - Undergraduate Researcher**  
-  *May 2025 – Present*  
+  *May 2025 – Dec 2026*  
   - Developed and optimized procedures for fabricating polymer-based thermal interface material samples
   - Characterized thermal properties to inform experimental changes
 
