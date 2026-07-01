@@ -12,7 +12,7 @@ title: "Kandice Lu"
 
 Hi! My name is Kandice Lu, I am an aerospace M.Eng student at Cornell University (expected Dec 2026), with a B.S in Mechanical Engineering from Cornell as well. 
 
-I am highly interested in structural and thermofluid modelling and analysis, especially in aerospace applications, but would love the opportunity to apply these skills in other areas as well.
+I am passionate about structural design and analysis, especially in aerospace applications, but also have interests in thermofluid analysis and CFD, and would love the opportunity to expand my knowledge in any area
 
 My engineering experience includes serving as the full team lead and fabrication lead for the Steel Bridge project team at Cornell. This role has gifted me much experience in structural design, finite element analysis, design for manufacturing and assembly, as well as project management, and collaboration skills. Additionally, I was an undergraduate researcher with the ZT Group, assisting in research on polymer-based thermal interface materials.
 
