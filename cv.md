@@ -27,19 +27,19 @@ permalink: /cv/
 ---
 
 ### Objective
-Aspiring mechanical engineering student passionate about aerospace, but eager to apply and expand my knowledge in all areas. Currently seeking an internship for summer 2026.
+Aspiring mechanical engineer student passionate about structural analysis and aerospace, but eager to apply and expand my knowledge in all areas. 
 
 ---
 
 ### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.93/4.0 | Graduation: May 2026
+  GPA: 3.93/4.0, 4.11/4.3 | Graduation: May 2026
   Dean's List: Fall 2022 - Spring 2025
   Sibley Prize
 - **Cornell University**  
   *Master of Engineering in Aerospace Engineering*  
-  Graduation: Dec 2026
+  Expected: Dec 2026
 
 ---
 
@@ -79,15 +79,25 @@ minimal deflection in an annual competition
 ---
 
 ### Coursework Projects
-- **Cube Collecting Robot**  
+- **Finite Element Analysis: Wing Design**  
+  *Oct 2025 – Dec 2025*  
+  Designed an airplane wing to minimize weight while meeting deflection and safety factor requirements; optimized configurations in ANSYS to cut initial weight by over 20%, validating results through manual and automatic mesh refinement studies.
+
+- **Fluids Lab: Wind Turbine Blade Design**  
+  *Oct 2025 – Dec 2025*  
+  Designed and built a small-scale wind turbine, developing a MATLAB model of blade performance and validating it against physical turbine performance in wind tunnel testing.
+
+- **Cube Collecting Robot**
+  *Feb 2025 – May 2025*   
   Designed and programmed an autonomous cube-collecting robot using Arduino and sensors; implemented foldable, self-deploying arms.
 
-- **Glider Project**  
-  Designed and built a slow-flying balsa glider; modeled structure in CAD, constructed from laser-cut balsa and tissue, and achieved 5th place in flight time competition.
+- **Introduction to Aeronautics: Glider Project**  
+  *Sep 2024 – Dec 2024*  
+  Designed a slow-flying balsa glider using lift and drag calculations for balanced flight; modeled the structure in CAD and built it via laser cutting and hand assembly, placing 5th in the flight time competition.
 
-- **Reverse Engineering**  
+- **Reverse Engineering**
+  *Sep 2023*  
   Deconstructed and analyzed a door lock/knob; documented disassembly and determined mechanical function of all components.
-
 ---
 
 ### Work Experience
