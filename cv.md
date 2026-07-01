@@ -61,12 +61,12 @@ Aspiring mechanical engineer student passionate about structural analysis and ae
 ### Relevant Experience
 - **[Cornell Steel Bridge Project Team] - Full Team Lead, Fabrication Lead**  
   *Sep 2023 – Present*  
-- Led a multi-disciplinary team of 30 students through the full design-build cycle of a 23-foot steel bridge, competing on a combined score of weight, construction time, and deflection under a 2,500 lb load, placing third in a regional competition
-- Designed the bridge's base geometry and ran FEA across multiple configurations and section properties to optimize the weight-stiffness tradeoff, improving projected structural efficiency by 15%
-- Designed a new connection geometry to improve rigidity and assembly speed, validating with CAD and FEA to ensure structural integrity under worst-case loads
-- Reviewed all components for fit with adjoining parts, manufacturability, ease of assembly, and compliance with rules
-- Directed the team's machining operations: sourced materials, developed procedures for efficient bulk fabrication, and trained junior teammates
-- Led static load testing of the final assembly and designed and implemented fixes that reduced deflection by 50%
+  - Led a multi-disciplinary team of 30 students through the full design-build cycle of a 23-foot steel bridge, competing on a combined score of weight, construction time, and deflection under a 2,500 lb load, placing third in a regional competition
+  - Designed the bridge's base geometry and ran FEA across multiple configurations and section properties to optimize the weight-stiffness tradeoff, improving projected structural efficiency by 15%
+  - Designed a new connection geometry to improve rigidity and assembly speed, validating with CAD and FEA to ensure structural integrity under worst-case loads
+  - Reviewed all components for fit with adjoining parts, manufacturability, ease of assembly, and compliance with rules
+  - Directed the team's machining operations: sourced materials, developed procedures for efficient bulk fabrication, and trained junior teammates
+  - Led static load testing of the final assembly and designed and implemented fixes that reduced deflection by 50%
 
 - **[ZT Group] - Undergraduate Researcher**  
   *May 2025 – Dec 2026*  
